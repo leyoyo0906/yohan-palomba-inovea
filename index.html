@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yohan Palomba | Ambassadeur INOVEA — Gestion de patrimoine accessible à tous</title>
-<meta name="description" content="Yohan Palomba, ambassadeur INOVEA. Je vous sensibilise à la gestion de patrimoine et vous mets en relation gratuitement avec un conseiller certifié. Aucun honoraire de conseil.">
+<meta name="description" content="Yohan Palomba, ambassadeur INOVEA. Je vous sensibilise à la gestion de patrimoine et vous oriente vers le meilleur conseiller INOVEA pour vous. Aucun honoraire de conseil et d'accompagnement.">
 <meta name="author" content="Yohan Palomba">
-<meta name="keywords" content="gestion de patrimoine, INOVEA, ambassadeur, épargne, investissement, assurance-vie, PER, SCPI, conseiller patrimoine, gratuit">
+<meta name="keywords" content="gestion de patrimoine, INOVEA, ambassadeur, épargne, investissement, assurance-vie, PER, SCPI, conseiller patrimoine">
 <meta property="og:title" content="Yohan Palomba | Ambassadeur INOVEA">
-<meta property="og:description" content="Je vous accompagne gratuitement vers une gestion de patrimoine intelligente. Aucun honoraire de conseil et d'accompagnement.">
+<meta property="og:description" content="Je vous accompagne vers une gestion de patrimoine intelligente et vous oriente vers le meilleur conseiller INOVEA pour vous.">
 <meta property="og:type" content="website">
 <link rel="icon" href="https://www.inovea-group.com/wp-content/uploads/2025/04/site-inovea-icon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,6 @@
 *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
 body { font-family:'Poppins',system-ui,sans-serif; color:var(--text-dark); line-height:1.7; overflow-x:hidden; }
-/* NAV */
 .nav { position:fixed; top:0; left:0; right:0; z-index:1000; background:rgba(255,255,255,0.95); backdrop-filter:blur(12px); border-bottom:1px solid rgba(10,95,122,0.08); transition:box-shadow .3s; }
 .nav.scrolled { box-shadow:var(--shadow); }
 .nav-inner { max-width:1200px; margin:0 auto; padding:0.8rem 1.5rem; display:flex; align-items:center; justify-content:space-between; }
@@ -49,7 +48,6 @@ body { font-family:'Poppins',system-ui,sans-serif; color:var(--text-dark); line-
 .nav-cta { background:var(--accent); color:#fff!important; padding:0.55rem 1.3rem; border-radius:50px; font-weight:600!important; transition:background .2s, transform .2s; }
 .nav-cta:hover { background:var(--accent-hover); transform:translateY(-1px); }
 .hamburger { display:none; background:none; border:none; font-size:1.5rem; color:var(--primary-dark); cursor:pointer; }
-/* HERO */
 .hero { min-height:100vh; display:flex; align-items:center; background:var(--gradient); position:relative; overflow:hidden; padding:7rem 1.5rem 4rem; }
 .hero::before { content:''; position:absolute; top:-50%; right:-20%; width:600px; height:600px; background:rgba(255,255,255,0.04); border-radius:50%; }
 .hero::after { content:''; position:absolute; bottom:-30%; left:-10%; width:400px; height:400px; background:rgba(255,255,255,0.03); border-radius:50%; }
@@ -70,7 +68,6 @@ body { font-family:'Poppins',system-ui,sans-serif; color:var(--text-dark); line-
 .hero-photo-frame img { width:100%; height:100%; object-fit:cover; }
 .hero-photo-placeholder { width:100%; height:100%; display:flex; flex-direction:column; align-items:center; justify-content:center; color:rgba(255,255,255,0.6); font-size:0.85rem; text-align:center; padding:1rem; }
 .hero-photo-placeholder i { font-size:3rem; margin-bottom:0.8rem; opacity:0.5; }
-/* SECTIONS */
 section { padding:5rem 1.5rem; }
 .section-light { background:var(--bg-light); }
 .section-white { background:var(--bg-white); }
@@ -81,13 +78,11 @@ section { padding:5rem 1.5rem; }
 .section-gradient .section-title h2 { color:#fff; }
 .section-title p { color:var(--text-light); font-size:1.05rem; max-width:600px; margin:0 auto; }
 .section-gradient .section-title p { color:rgba(255,255,255,0.85); }
-/* CHIFFRES */
 .chiffres-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1.5rem; }
 .chiffre-card { background:#fff; border-radius:var(--radius); padding:2rem 1.5rem; text-align:center; box-shadow:var(--shadow); transition:transform .3s; }
 .chiffre-card:hover { transform:translateY(-4px); }
 .chiffre-card .number { font-size:2.2rem; font-weight:800; background:var(--gradient-subtle); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
 .chiffre-card .label { font-size:0.88rem; color:var(--text-light); margin-top:0.3rem; font-weight:500; }
-/* ROLE */
 .role-content { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
 .role-text h3 { font-size:1.3rem; color:var(--primary-dark); margin-bottom:1rem; font-weight:700; }
 .role-text p { color:var(--text-mid); margin-bottom:1rem; }
@@ -98,7 +93,6 @@ section { padding:5rem 1.5rem; }
 .role-card i { font-size:1.5rem; color:var(--accent); flex-shrink:0; margin-top:0.2rem; }
 .role-card h4 { font-size:1rem; font-weight:600; color:var(--primary-dark); margin-bottom:0.3rem; }
 .role-card p { font-size:0.88rem; color:var(--text-light); }
-/* STORY */
 .story-wrapper { max-width:800px; margin:0 auto; }
 .story-block { display:flex; gap:2rem; margin-bottom:2.5rem; align-items:flex-start; }
 .story-icon { width:56px; height:56px; min-width:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.3rem; color:#fff; flex-shrink:0; }
@@ -108,39 +102,33 @@ section { padding:5rem 1.5rem; }
 .story-icon.coral { background:var(--accent); }
 .story-block h3 { font-size:1.15rem; color:var(--primary-dark); font-weight:600; margin-bottom:0.4rem; }
 .story-block p { color:var(--text-mid); font-size:0.95rem; }
-/* CONSTAT */
 .constat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.8rem; }
 .constat-card { background:#fff; border-radius:var(--radius); padding:2rem; box-shadow:var(--shadow); border-top:4px solid var(--accent); text-align:center; }
 .constat-card .stat { font-size:2.5rem; font-weight:800; color:var(--accent); }
 .constat-card p { color:var(--text-mid); margin-top:0.5rem; font-size:0.95rem; }
-/* SOLUTIONS */
 .solutions-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.8rem; }
 .solution-card { background:#fff; border-radius:var(--radius); padding:2rem; box-shadow:var(--shadow); transition:transform .3s; border:1px solid rgba(10,95,122,0.06); }
 .solution-card:hover { transform:translateY(-4px); }
 .solution-card i { font-size:2rem; color:var(--primary-light); margin-bottom:1rem; display:block; }
 .solution-card h3 { font-size:1.1rem; font-weight:600; color:var(--primary-dark); margin-bottom:0.5rem; }
 .solution-card p { color:var(--text-light); font-size:0.9rem; }
-/* STEPS */
 .steps-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:2rem; position:relative; }
 .steps-grid::before { content:''; position:absolute; top:36px; left:10%; right:10%; height:3px; background:rgba(255,255,255,0.2); z-index:0; }
 .step { text-align:center; position:relative; z-index:1; }
 .step-number { width:72px; height:72px; border-radius:50%; background:rgba(255,255,255,0.15); backdrop-filter:blur(8px); border:3px solid rgba(255,255,255,0.3); display:flex; align-items:center; justify-content:center; margin:0 auto 1.2rem; font-size:1.6rem; font-weight:800; }
 .step h3 { font-size:1.05rem; font-weight:600; margin-bottom:0.5rem; }
 .step p { font-size:0.88rem; opacity:0.85; }
-/* CONVICTION */
 .conviction-content { max-width:700px; margin:0 auto; text-align:center; }
 .conviction-content blockquote { font-size:1.3rem; font-weight:500; font-style:italic; line-height:1.8; margin-bottom:1.5rem; position:relative; padding:0 2rem; }
 .conviction-content blockquote::before { content:'\201C'; font-size:4rem; position:absolute; top:-1rem; left:-0.5rem; opacity:0.15; font-family:Georgia,serif; }
 .conviction-content .author { font-weight:600; font-size:1rem; }
-/* FAQ */
 .faq-list { max-width:750px; margin:0 auto; }
 .faq-item { background:#fff; border-radius:var(--radius-sm); margin-bottom:1rem; box-shadow:var(--shadow); overflow:hidden; border:1px solid rgba(10,95,122,0.06); }
 .faq-question { width:100%; background:none; border:none; padding:1.3rem 1.5rem; display:flex; justify-content:space-between; align-items:center; cursor:pointer; font-family:inherit; font-size:1rem; font-weight:600; color:var(--primary-dark); text-align:left; }
 .faq-question i { transition:transform .3s; color:var(--accent); flex-shrink:0; margin-left:1rem; }
 .faq-item.active .faq-question i { transform:rotate(180deg); }
-.faq-answer { max-height:0; overflow:hidden; transition:max-height .4s ease, padding .4s ease; }
+.faq-answer { max-height:0; overflow:hidden; transition:max-height .4s ease; }
 .faq-answer-inner { padding:0 1.5rem 1.3rem; color:var(--text-mid); font-size:0.93rem; line-height:1.7; }
-/* CTA CONTACT */
 .cta-section { background:var(--gradient); padding:5rem 1.5rem; text-align:center; color:#fff; position:relative; overflow:hidden; }
 .cta-section::before { content:''; position:absolute; top:-50%; right:-20%; width:500px; height:500px; background:rgba(255,255,255,0.03); border-radius:50%; }
 .cta-section h2 { font-size:clamp(1.6rem,3.5vw,2.5rem); font-weight:700; margin-bottom:1rem; }
@@ -151,7 +139,6 @@ section { padding:5rem 1.5rem; }
 .cta-contact-item i { font-size:1.8rem; }
 .cta-contact-item .label { font-size:0.8rem; opacity:0.7; display:block; }
 .cta-contact-item .value { font-size:1.1rem; font-weight:600; }
-/* FOOTER */
 footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 .footer-inner { max-width:1100px; margin:0 auto; }
 .footer-top { display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:2rem; margin-bottom:2rem; padding-bottom:2rem; border-bottom:1px solid rgba(255,255,255,0.08); }
@@ -161,9 +148,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 .footer-links a { color:#aab4c6; text-decoration:none; font-size:0.88rem; transition:color .2s; display:block; margin-bottom:0.5rem; }
 .footer-links a:hover { color:var(--primary-light); }
 .footer-bottom { text-align:center; font-size:0.8rem; opacity:0.7; }
-.footer-bottom a { color:var(--primary-light); text-decoration:none; }
 .footer-disclaimer { text-align:center; font-size:0.75rem; opacity:0.5; margin-top:0.8rem; max-width:700px; margin-left:auto; margin-right:auto; }
-/* MODALS */
 .modal-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); backdrop-filter:blur(4px); z-index:2000; justify-content:center; align-items:flex-start; padding:2rem; overflow-y:auto; }
 .modal-overlay.active { display:flex; }
 .modal-content { background:#fff; border-radius:var(--radius); max-width:850px; width:100%; padding:3rem; position:relative; margin:2rem auto; }
@@ -176,10 +161,8 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 .modal-content a { color:var(--primary-dark); text-decoration:underline; }
 .legal-entity { background:var(--bg-light); border-radius:var(--radius-sm); padding:1.2rem; margin:0.8rem 0; }
 .legal-entity strong { color:var(--primary-dark); }
-/* SCROLL ANIM */
 .reveal { opacity:0; transform:translateY(30px); transition:opacity .7s ease, transform .7s ease; }
 .reveal.visible { opacity:1; transform:translateY(0); }
-/* RESPONSIVE */
 @media(max-width:900px) {
   .hero-inner { grid-template-columns:1fr; text-align:center; }
   .hero p { margin:0 auto 2rem; }
@@ -237,7 +220,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
         <i class="fas fa-shield-halved"></i> Ambassadeur INOVEA
       </div>
       <h1>Prenez votre <span>avenir financier</span> en main</h1>
-      <p>Je vous accompagne gratuitement pour comprendre la gestion de patrimoine et vous mets en relation avec un conseiller certifié. <strong>Aucun honoraire de conseil et d'accompagnement.</strong></p>
+      <p>Je vous accompagne pour comprendre la gestion de patrimoine et vous oriente vers le <strong>meilleur conseiller INOVEA pour vous</strong>. Aucun honoraire de conseil et d'accompagnement.</p>
       <div class="hero-btns">
         <a href="#contact" class="btn btn-accent"><i class="fas fa-phone"></i> Me contacter</a>
         <a href="#role" class="btn btn-outline"><i class="fas fa-arrow-down"></i> En savoir plus</a>
@@ -245,7 +228,6 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
     </div>
     <div class="hero-photo">
       <div class="hero-photo-frame">
-        <!-- Remplacer par votre photo : photo-yohan.jpg -->
         <img src="photo-yohan.jpg" alt="Yohan Palomba — Ambassadeur INOVEA"
              onerror="this.style.display='none';this.parentElement.querySelector('.hero-photo-placeholder').style.display='flex'">
         <div class="hero-photo-placeholder" style="display:none;">
@@ -260,7 +242,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 <section class="section-light" id="chiffres">
   <div class="container">
     <div class="section-title reveal">
-      <h2>Le réseau INOVEA en chiffres</h2>
+      <h2>INOVEA en chiffres</h2>
       <p>Un réseau national de confiance, au service de votre patrimoine depuis 2017</p>
     </div>
     <div class="chiffres-grid">
@@ -291,17 +273,17 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 <section class="section-white" id="role">
   <div class="container">
     <div class="section-title reveal">
-      <h2>Mon rôle : vous ouvrir les portes</h2>
-      <p>Je ne suis pas conseiller financier — je suis votre premier point de contact</p>
+      <h2>Mon rôle : vous ouvrir les portes d'INOVEA</h2>
+      <p>Je suis votre premier point de contact vers une gestion de patrimoine sur mesure</p>
     </div>
     <div class="role-content">
       <div class="role-text reveal">
-        <h3><i class="fas fa-user-tie" style="color:var(--accent);margin-right:0.5rem;"></i> Ambassadeur, pas conseiller</h3>
-        <p>En tant qu'ambassadeur INOVEA et rapporteur d'affaires pour le cabinet <a href="https://www.ethiconsult.fr/" target="_blank" rel="noopener">Ethiconsult</a>, mon rôle est simple : <strong>vous sensibiliser</strong> à l'importance de la gestion de patrimoine et <strong>vous mettre en relation</strong> avec un conseiller en gestion de patrimoine certifié.</p>
-        <p>Je ne vends rien, je ne conseille pas sur les produits financiers. Je suis là pour écouter votre situation, répondre à vos premières questions, et vous orienter vers la bonne personne.</p>
+        <h3><i class="fas fa-user-tie" style="color:var(--accent);margin-right:0.5rem;"></i> Votre ambassadeur INOVEA</h3>
+        <p>En tant qu'ambassadeur du réseau <a href="https://www.inovea-group.com/" target="_blank" rel="noopener">INOVEA</a>, je suis là pour <strong>vous sensibiliser</strong> à l'importance de la gestion de patrimoine et <strong>vous orienter vers le meilleur conseiller INOVEA</strong> selon votre profil et vos besoins.</p>
+        <p>Je ne vends rien, je ne conseille pas sur les produits financiers. J'écoute votre situation, je réponds à vos premières questions, puis je vous mets en relation avec <strong>le conseiller INOVEA le plus adapté à votre situation</strong>.</p>
         <div class="role-highlight">
           <strong>💰 Aucun honoraire de conseil et d'accompagnement</strong><br>
-          Mon accompagnement est entièrement gratuit pour vous. Les produits financiers éventuellement souscrits comportent des frais propres (droits d'entrée, frais de gestion) qui vous seront clairement présentés avant toute souscription.
+          Les produits financiers éventuellement souscrits comportent des frais propres (droits d'entrée, frais de gestion) qui vous seront clairement présentés avant toute souscription. Pas de surprise, une totale transparence.
         </div>
       </div>
       <div class="role-cards reveal">
@@ -322,8 +304,8 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
         <div class="role-card">
           <i class="fas fa-handshake"></i>
           <div>
-            <h4>Je mets en relation</h4>
-            <p>Je vous oriente vers Valérie Fargier, gestionnaire de patrimoine certifiée chez Ethiconsult.</p>
+            <h4>Je vous oriente</h4>
+            <p>Je vous redirige vers le meilleur conseiller INOVEA pour vous, celui qui correspond à vos besoins.</p>
           </div>
         </div>
       </div>
@@ -453,13 +435,13 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
       </div>
       <div class="step reveal">
         <div class="step-number">3</div>
-        <h3><i class="fas fa-handshake"></i> La mise en relation</h3>
-        <p>Je vous présente Valérie Fargier, conseillère en gestion de patrimoine certifiée du réseau INOVEA.</p>
+        <h3><i class="fas fa-compass"></i> Je vous oriente</h3>
+        <p>Je vous redirige vers le meilleur conseiller INOVEA pour vous, adapté à votre profil et vos besoins.</p>
       </div>
       <div class="step reveal">
         <div class="step-number">4</div>
         <h3><i class="fas fa-rocket"></i> L'accompagnement</h3>
-        <p>Valérie réalise votre bilan patrimonial et vous propose des solutions personnalisées.</p>
+        <p>Votre conseiller INOVEA réalise votre bilan patrimonial et vous propose des solutions personnalisées.</p>
       </div>
     </div>
   </div>
@@ -484,15 +466,15 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
     </div>
     <div class="faq-list">
       <div class="faq-item reveal">
-        <button class="faq-question">C'est vraiment gratuit ? <i class="fas fa-chevron-down"></i></button>
+        <button class="faq-question">Quel est le coût de votre accompagnement ? <i class="fas fa-chevron-down"></i></button>
         <div class="faq-answer"><div class="faq-answer-inner">
-          <strong>Aucun honoraire de conseil et d'accompagnement ne vous sera facturé.</strong> Mon rôle d'ambassadeur est de vous sensibiliser et de vous mettre en relation gratuitement. Si vous décidez de souscrire un produit financier suite au conseil de votre CGP, ce produit comporte des frais propres (droits d'entrée, frais de souscription, frais de gestion) qui vous seront <strong>clairement présentés avant toute souscription</strong>. Ces frais sont inhérents aux produits financiers eux-mêmes, pas à l'accompagnement.
+          <strong>Aucun honoraire de conseil et d'accompagnement ne vous sera facturé.</strong> Mon rôle d'ambassadeur est de vous sensibiliser et de vous orienter vers le meilleur conseiller INOVEA pour vous. Si vous décidez par la suite de souscrire un produit financier, ce produit comporte des frais propres (droits d'entrée, frais de souscription, frais de gestion) qui vous seront <strong>clairement présentés avant toute souscription</strong>. Ces frais sont inhérents aux produits financiers eux-mêmes. Totale transparence, pas de surprise.
         </div></div>
       </div>
       <div class="faq-item reveal">
         <button class="faq-question">Êtes-vous conseiller en gestion de patrimoine ? <i class="fas fa-chevron-down"></i></button>
         <div class="faq-answer"><div class="faq-answer-inner">
-          Non. Je suis <strong>ambassadeur INOVEA et rapporteur d'affaires</strong> pour le cabinet Ethiconsult. Je ne suis pas habilité à donner des conseils en investissements financiers. Mon rôle est de vous sensibiliser à l'importance de la gestion de patrimoine et de vous orienter vers <strong>Valérie Fargier</strong>, conseillère en gestion de patrimoine certifiée, qui elle est habilitée à vous accompagner.
+          Non. Je suis <strong>ambassadeur du réseau INOVEA</strong>. Je ne suis pas habilité à donner des conseils en investissements financiers. Mon rôle est de vous sensibiliser à l'importance de la gestion de patrimoine et de <strong>vous orienter vers le conseiller INOVEA le plus adapté à votre situation</strong>. C'est lui qui vous accompagnera dans vos projets patrimoniaux.
         </div></div>
       </div>
       <div class="faq-item reveal">
@@ -510,7 +492,13 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
       <div class="faq-item reveal">
         <button class="faq-question">Comment se passe le premier contact ? <i class="fas fa-chevron-down"></i></button>
         <div class="faq-answer"><div class="faq-answer-inner">
-          C'est très simple : vous m'appelez ou m'envoyez un email. On échange 10-15 minutes pour que je comprenne votre situation et vos questions. <strong>Aucun engagement, aucune pression.</strong> Si vous le souhaitez, je vous mets ensuite en relation avec Valérie Fargier pour un bilan patrimonial approfondi.
+          C'est très simple : vous m'appelez ou m'envoyez un email. On échange 10-15 minutes pour que je comprenne votre situation et vos questions. <strong>Aucun engagement, aucune pression.</strong> Si vous le souhaitez, je vous oriente ensuite vers le conseiller INOVEA le plus adapté à votre profil pour un bilan patrimonial approfondi.
+        </div></div>
+      </div>
+      <div class="faq-item reveal">
+        <button class="faq-question">Pourquoi passer par vous plutôt que contacter INOVEA directement ? <i class="fas fa-chevron-down"></i></button>
+        <div class="faq-answer"><div class="faq-answer-inner">
+          Parce que je suis un <strong>interlocuteur humain et accessible</strong>. INOVEA est un grand réseau avec plus de 1 200 conseillers. Mon rôle est justement de <strong>comprendre votre situation</strong> pour vous orienter vers le conseiller qui correspond le mieux à vos besoins, votre profil et vos objectifs. Un accompagnement personnalisé dès le premier contact.
         </div></div>
       </div>
       <div class="faq-item reveal">
@@ -526,7 +514,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 <section class="cta-section" id="contact">
   <div class="container reveal">
     <h2>Prêt à reprendre le contrôle de votre avenir financier ?</h2>
-    <p>Un simple appel ou un email suffit. Pas d'engagement, pas de pression. Juste une conversation qui peut tout changer.</p>
+    <p>Un simple appel ou un email suffit. Sans engagement, sans pression. Juste une conversation qui peut tout changer.</p>
     <div class="cta-contacts">
       <a href="tel:+33651744269" class="cta-contact-item">
         <i class="fas fa-phone"></i>
@@ -552,7 +540,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
       <div class="footer-brand">
         <img src="https://www.inovea-group.com/wp-content/uploads/2023/10/logo-inovea.png" alt="INOVEA"
              onerror="this.outerHTML='<span style=\'font-weight:700;color:#22D4E0;font-size:1.2rem\'>INOVÉA</span>'">
-        <p>Yohan Palomba — Ambassadeur INOVEA<br>Rapporteur d'affaires pour le cabinet Ethiconsult</p>
+        <p>Yohan Palomba — Ambassadeur INOVEA<br>Je vous oriente vers le meilleur conseiller pour vous.</p>
       </div>
       <div class="footer-links">
         <div>
@@ -566,7 +554,6 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
           <a href="#" onclick="openModal('modalMentions');return false;">Mentions légales</a>
           <a href="#" onclick="openModal('modalRGPD');return false;">Politique de confidentialité</a>
           <a href="https://www.inovea-group.com/" target="_blank" rel="noopener">Site INOVEA</a>
-          <a href="https://www.ethiconsult.fr/" target="_blank" rel="noopener">Cabinet Ethiconsult</a>
         </div>
       </div>
     </div>
@@ -574,7 +561,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
       © 2025 Yohan Palomba — Ambassadeur INOVEA · Tous droits réservés
     </div>
     <div class="footer-disclaimer">
-      Site non contractuel à vocation informative. Yohan Palomba est rapporteur d'affaires (ambassadeur) pour le cabinet Ethiconsult, rattaché au réseau INOVEA. Il n'est ni conseiller en investissements financiers, ni intermédiaire en assurance. Les informations présentées ne constituent pas un conseil en investissement.
+      Site non contractuel à vocation informative. Yohan Palomba est ambassadeur pour le réseau INOVEA. Il n'est ni conseiller en investissements financiers, ni intermédiaire en assurance. Les informations présentées ne constituent pas un conseil en investissement.
     </div>
   </div>
 </footer>
@@ -601,8 +588,8 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
       <a href="https://github.com" target="_blank" rel="noopener">github.com</a>
     </div>
     <h3>4 — Activité</h3>
-    <p>Yohan Palomba exerce en qualité d'<strong>ambassadeur et rapporteur d'affaires</strong> pour le réseau INOVEA, rattaché au cabinet <strong>Ethiconsult</strong> (<a href="https://www.ethiconsult.fr/" target="_blank" rel="noopener">www.ethiconsult.fr</a>).</p>
-    <p>Yohan Palomba <strong>n'est ni conseiller en gestion de patrimoine, ni conseiller en investissements financiers, ni intermédiaire en assurance</strong>. Son rôle consiste exclusivement à sensibiliser le public à la gestion de patrimoine et à mettre en relation les personnes intéressées avec un conseiller en gestion de patrimoine certifié du réseau INOVEA.</p>
+    <p>Yohan Palomba exerce en qualité d'<strong>ambassadeur pour le réseau INOVEA</strong>.</p>
+    <p>Yohan Palomba <strong>n'est ni conseiller en gestion de patrimoine, ni conseiller en investissements financiers, ni intermédiaire en assurance</strong>. Son rôle consiste exclusivement à sensibiliser le public à la gestion de patrimoine et à orienter les personnes intéressées vers le conseiller INOVEA le plus adapté à leur situation.</p>
     <p>Les informations présentées sur ce site sont à caractère général et informatif. Elles ne constituent en aucun cas un conseil en investissement, une recommandation personnalisée ou une sollicitation à souscrire un produit financier.</p>
     <h3>5 — Le réseau INOVEA</h3>
     <div class="legal-entity">
@@ -629,7 +616,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
     </div>
     <p style="margin-top:0.8rem;">Vérification des immatriculations : <a href="https://www.orias.fr" target="_blank" rel="noopener">www.orias.fr</a></p>
     <h3>6 — Réclamations</h3>
-    <p>Pour toute réclamation, vous pouvez contacter :</p>
+    <p>Pour toute réclamation, vous pouvez contacter INOVEA :</p>
     <ul>
       <li><strong>Par email :</strong> <a href="mailto:reclamations@inovea-group.com">reclamations@inovea-group.com</a></li>
       <li><strong>Par téléphone :</strong> 04 30 00 60 41 (appel non surtaxé, du lundi au jeudi 9h–12h30 / 14h–18h, vendredi 9h–13h / 14h–17h)</li>
@@ -663,7 +650,7 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
     <p>Vos données sont collectées et traitées aux fins suivantes :</p>
     <ul>
       <li>Répondre à vos demandes de contact et d'information</li>
-      <li>Vous mettre en relation avec un conseiller en gestion de patrimoine du réseau INOVEA</li>
+      <li>Vous orienter vers le conseiller INOVEA le plus adapté à votre situation</li>
       <li>Assurer le suivi de la relation et l'amélioration du service</li>
       <li>Respecter les obligations légales et réglementaires d'INOVEA</li>
     </ul>
@@ -671,14 +658,14 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
     <p>Les traitements reposent sur :</p>
     <ul>
       <li><strong>Votre consentement</strong> lorsque vous nous contactez volontairement</li>
-      <li><strong>L'exécution de mesures précontractuelles</strong> (mise en relation avec un CGP)</li>
+      <li><strong>L'exécution de mesures précontractuelles</strong> (orientation vers un conseiller INOVEA)</li>
       <li><strong>L'intérêt légitime</strong> d'INOVEA (amélioration des services, animation du réseau)</li>
       <li><strong>Les obligations légales</strong> d'INOVEA (devoir de conseil, LCB-FT)</li>
     </ul>
     <h3>5 — Destinataires des données</h3>
     <p>Vos données peuvent être transmises à :</p>
     <ul>
-      <li>Le cabinet <strong>Ethiconsult</strong> et le conseiller en gestion de patrimoine désigné</li>
+      <li>Le conseiller INOVEA désigné pour vous accompagner</li>
       <li>Les collaborateurs habilités du <strong>Groupe INOVEA</strong></li>
       <li>Les partenaires d'INOVEA (compagnies d'assurance, sociétés de gestion) dans le cadre des solutions proposées</li>
       <li>Les autorités de régulation et de contrôle (AMF, ACPR) dans le cadre des obligations légales</li>
@@ -714,12 +701,10 @@ footer { background:#0a1628; color:#aab4c6; padding:3rem 1.5rem 1.5rem; }
 </div>
 <!-- ========== JAVASCRIPT ========== -->
 <script>
-/* Navigation scroll effect */
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
   navbar.classList.toggle('scrolled', window.scrollY > 50);
 });
-/* Hamburger menu */
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('navLinks');
 hamburger.addEventListener('click', () => {
@@ -728,7 +713,6 @@ hamburger.addEventListener('click', () => {
   icon.classList.toggle('fa-bars');
   icon.classList.toggle('fa-times');
 });
-/* Fermer le menu mobile au clic sur un lien */
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('active');
@@ -737,35 +721,28 @@ navLinks.querySelectorAll('a').forEach(link => {
     icon.classList.remove('fa-times');
   });
 });
-/* Scroll reveal animations */
 const revealElements = document.querySelectorAll('.reveal');
 const revealObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-    }
+    if (entry.isIntersecting) entry.target.classList.add('visible');
   });
 }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
 revealElements.forEach(el => revealObserver.observe(el));
-/* FAQ Accordion */
 document.querySelectorAll('.faq-question').forEach(btn => {
   btn.addEventListener('click', () => {
     const item = btn.parentElement;
     const answer = item.querySelector('.faq-answer');
     const isActive = item.classList.contains('active');
-    /* Fermer tous les autres */
     document.querySelectorAll('.faq-item.active').forEach(openItem => {
       openItem.classList.remove('active');
       openItem.querySelector('.faq-answer').style.maxHeight = '0';
     });
-    /* Ouvrir/fermer celui-ci */
     if (!isActive) {
       item.classList.add('active');
       answer.style.maxHeight = answer.scrollHeight + 'px';
     }
   });
 });
-/* Modals */
 function openModal(id) {
   document.getElementById(id).classList.add('active');
   document.body.style.overflow = 'hidden';
@@ -774,21 +751,14 @@ function closeModal(id) {
   document.getElementById(id).classList.remove('active');
   document.body.style.overflow = '';
 }
-/* Fermer modal au clic sur l'overlay */
 document.querySelectorAll('.modal-overlay').forEach(overlay => {
   overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) {
-      overlay.classList.remove('active');
-      document.body.style.overflow = '';
-    }
+    if (e.target === overlay) { overlay.classList.remove('active'); document.body.style.overflow = ''; }
   });
 });
-/* Fermer modal avec Échap */
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') {
-    document.querySelectorAll('.modal-overlay.active').forEach(m => {
-      m.classList.remove('active');
-    });
+    document.querySelectorAll('.modal-overlay.active').forEach(m => m.classList.remove('active'));
     document.body.style.overflow = '';
   }
 });
